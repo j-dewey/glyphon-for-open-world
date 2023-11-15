@@ -12,10 +12,12 @@
   <a href="https://github.com/grovesNL/glyphon/actions"><img src="https://github.com/grovesNL/glyphon/workflows/CI/badge.svg?branch=main" alt="Build Status" /></a>
 </div>
 
-## What is this?
-
 This is to make Glyphon compataible with my OpenWorld repository.
 I'll come back to this everytime that it falls out of date with WGPU, WINIT, and LOG
+I'm not sure if I should change the TOML package data, but the only change from the main branch was the version
+of one library dependancy, so that feels wrong. If I should, just put it as an issue and I will fix it.
+
+## What is this?
 
 This crate provides a simple way to render 2D text with [`wgpu`](https://github.com/gfx-rs/wgpu/) by:
 
