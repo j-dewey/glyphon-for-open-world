@@ -14,6 +14,9 @@
 
 ## What is this?
 
+This is to make Glyphon compataible with my OpenWorld repository.
+I'll come back to this everytime that it falls out of date with WGPU, WINIT, and LOG
+
 This crate provides a simple way to render 2D text with [`wgpu`](https://github.com/gfx-rs/wgpu/) by:
 
 - shaping/calculating layout/rasterizing glyphs (with [`cosmic-text`](https://github.com/pop-os/cosmic-text/))
